@@ -1,16 +1,16 @@
-title:            Simple - Jekyll theme for Hackers!
-description:      clean and elegant theme for Jekyll.
+title:            Gotchacode
+description:      A Guide To Your Digital Life
 logo:             user.jpg
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
-url: http://vinitkumar.me/Simple              
+#url:               
 
 coderwall_user: vinitcool76
 
 # Owner/author information
 owner:
   name: Vinit Kumar          
-  avatar:        
+  avatar:      
   email: vinit.kumar@changer.nl         
   # Social networking links used in footer. Update and remove as you like.
   twitter: vinitkme      
@@ -30,10 +30,8 @@ bing_verify:
 links:
   - title: About
     url: /about
-  - title: Blog
+  - title: Archive
     url: /articles
-  - title: Code
-    url: http://github.com/vinitkumar
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    

@@ -11,21 +11,9 @@ textarea {
 }
 
 body {
-    font-size: 1em;
+    font-size: 21px;
     line-height: 1.4;
     background: #ffffff;
-}
-
-.grey {
-	background: url('/Simple/images/greyzz_@2X.png');
-}
-
-.geometry {
-	background: url('/Simple/images/geometry.png');
-}
-
-.notebook {
-	background: url('/Simple/images/notebook.png');
 }
 
 ::-moz-selection {
@@ -81,7 +69,7 @@ h1, h2, h3, h4 {
    ========================================================================== */
 
 body {
-    font: 16px/26px "Raleway", Arial;
+    font: 18px/26px "Open Sans", Arial;
 }
 
 .wrapper {
@@ -116,10 +104,10 @@ body {
     }
 		font-family: 'Helvetica', Arial;
 }
-.main aside {
+/*.main aside {
     background: url('/Simple/images/geometry.png');
 }
-
+*/
 .title {
     color: #000;
 }
@@ -230,7 +218,7 @@ nav a:hover {
    ==================== */
 
     nav a {
-        float: left;
+        float: right;
         width: 27%;
         margin: 0 1.7%;
         margin-bottom: 0;
@@ -280,7 +268,7 @@ nav a:hover {
 
     nav {
         float: right;
-        width: 38%;
+        width: 300px;
     }
 
 /* ============
@@ -305,7 +293,7 @@ nav a:hover {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 1180px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
@@ -446,4 +434,8 @@ nav a:hover {
 code, kbd, pre, samp {
   font-family: monospace,serif;
   font-size: 14px;
+}
+
+.fa-arrow-circle-o-right, .fa-arrow-circle-o-left {
+    color: deepskyblue;
 }
